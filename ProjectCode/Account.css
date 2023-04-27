@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#headtop{
+    display: flex;
+}
+.Header{
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+nav{
+    padding-top: 25px;
+    text-align: right;
+}
+nav img{
+    padding-right: 12px;
+}
+nav ul{
+    font-size: x-large;
+    padding-right: 12px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    color: whitesmoke;
+}
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.row{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

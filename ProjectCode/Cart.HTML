@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS | Cart</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Cart.css">
+    
+</head>
+<body>
+    <div class="Header">
+        <div class="container">
+            <div class="title">
+                <h2>Your shopping bag</h2>
+                <p><i>feel friendly to join with us "</i></p>
+            </div>
+            
+            <nav> 
+                <ul>
+                    <li><a href="HomePage.HTML">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="Account.HTML">Account</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="col1">
+                <img src="/ImageFile/RED_logo_small.jpg" alt="" width="380px">
+                
+            </div>
+            <hr style="color: aliceblue;">            
+        </div>
+        <hr>
+        
+    </div>
+    
+    <!------cart------->
+    <section>
+        <div class="row">
+            <div class="col-10 mx-auto my-3">
+                <table class="table col-10 table-dark text-center fs-5">
+                    <thead>
+                        <tr>
+                            <th>Serial No</th>
+                            <th>Product Name</th>
+                            <th>Quantity</th>
+                            <th>Total Price</th>
+                        </tr>
+                        <!-- <tr>
+                            <td id="product"></td>
+                            <td id="quantity"></td>
+                            <td id="price"></td>
+                            <td></td>
+                        </tr> -->
+                    </thead>
+                    <tbody class="table">
+                    </tbody>
+                </table>
+                <p id="product"></p>
+                <h2 id="quantity"></h2>
+                <p id="price"></p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="cart.js"></script>
+</body>
+</html>
